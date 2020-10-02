@@ -2,9 +2,9 @@
 
 int main()
 {
-	int i=-1,j=0,k=0,m;
-	m=i++ || j++ && k++;
-	printf("%d %d %d %d",i,j,k,m);
+	int i=-1,j=0,k=0,l;
+	l=i++ || j++ && k++;
+	printf("%d %d %d %d",i,j,k,l);
 	
 	return 0;
 }
